@@ -1,0 +1,67 @@
+first = input()
+second = input()
+third = input()
+
+if(first == "black"):
+    a =0
+elif(first == "brown"):
+    a = 10
+elif(first == "red"):
+    a = 20
+elif(first == "orange"):
+    a = 30
+elif(first == "yellow"):
+    a = 40
+elif(first == "green"):
+    a = 50
+elif(first == "blue"):
+    a = 60
+elif(first == "violet"):
+    a = 70
+elif(first == "grey"):
+    a = 80
+elif(first == "white"):
+    a = 90
+
+if(second == "black"):
+    a += 0
+elif(second == "brown"):
+    a += 1
+elif(second == "red"):
+    a += 2
+elif(second == "orange"):
+    a += 3
+elif(second == "yellow"):
+    a += 4
+elif(second == "green"):
+    a += 5
+elif(second == "blue"):
+    a += 6
+elif(second == "violet"):
+    a += 7
+elif(second == "grey"):
+    a += 8
+elif(second == "white"):
+    a += 9
+
+if(third == "black"):
+    a *= 1
+elif(third == "brown"):
+    a *= 10
+elif(third == "red"):
+    a *= 100
+elif(third == "orange"):
+    a *= 1000
+elif(third == "yellow"):
+    a *= 10000
+elif(third == "green"):
+    a *= 100000
+elif(third == "blue"):
+    a *= 1000000
+elif(third == "violet"):
+    a *= 10000000
+elif(third == "grey"):
+    a *= 100000000
+elif(third == "white"):
+    a *= 1000000000
+print(a)
