@@ -1,24 +1,23 @@
 import sys
-n, m = map(int, sys.stdin.readline().split())
-input = list(map(int, sys.stdin.readline().split()))
-input.sort()
-arr = []
-used = [False] * 10
 
-def nANDm(k):
-    if k == m:
-        for i in range(m):
-            print(arr[i], end = ' ')
-        print("")
-        return 0
-    else:
-        overlap = 0
-        for i in range(n):
-            if overlap != input[i]:
-                arr.append(input[i])
-                overlap = input[i]
-                used[i] = True
-                nANDm(k+1)
-                used[i] = False
-                arr.pop()
-nANDm(0)
+def nandm(k):
+  if k == m:
+    for i in range(m):
+      print(arr[i], end = ' ')
+    print('')
+    return 0 
+  check = 0
+  for i in range(n):
+    if check != n_list[i]:
+      arr[k] = n_list[i]
+      check = n_list[i]
+      isused[i] =True
+      nandm(k+1)
+      isused[i] = False
+
+n, m = map(int, sys.stdin.readline().split())
+n_list = list(map(int, sys.stdin.readline().split()))
+n_list.sort()
+arr = [0] * 10
+isused = [False] * 10
+nandm(0)
