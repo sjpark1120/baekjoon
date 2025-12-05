@@ -15,6 +15,7 @@
 |10101. 삼각형 외우기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10101.%E2%80%85%EC%82%BC%EA%B0%81%ED%98%95%E2%80%85%EC%99%B8%EC%9A%B0%EA%B8%B0/README.md)|
 |10103. 주사위 게임|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10103.%E2%80%85%EC%A3%BC%EC%82%AC%EC%9C%84%E2%80%85%EA%B2%8C%EC%9E%84/README.md)|
 |10156. 과자|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10156.%E2%80%85%EA%B3%BC%EC%9E%90/README.md)|
+|10162. 전자레인지|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10162.%E2%80%85%EC%A0%84%EC%9E%90%EB%A0%88%EC%9D%B8%EC%A7%80/README.md)|
 |10171. 고양이|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4/%EA%B3%A0%EC%96%91%EC%9D%B4.py)|
 |10189. Hook|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10189.%E2%80%85Hook/Hook.txt)|
 |10214. Baseball|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10214.%E2%80%85Baseball/Baseball.py)|
