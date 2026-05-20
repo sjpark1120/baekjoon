@@ -15,4 +15,5 @@ def solution(keyinput, board):
         elif key == "right":
             if x < max_x:
                 x += 1
+                
     return [x,y]
